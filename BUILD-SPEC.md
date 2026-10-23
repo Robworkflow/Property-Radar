@@ -74,3 +74,13 @@ Not reachable: guelph.ca HTML pages (403 to scripts; Cloudflare check also stops
 - Contact/mailing-address gathering + owner-occupied vs rented check: SHELVED for the Scorer agent build (not now).
 - Vacant land: low priority (separate list only).
 - Next phase: infrastructure alignment (GitHub, Paperclip, skills, rate limit, schedule, 9 roles).
+
+## 11. Hermes profile `property-radar` (created Oct 23 2026)
+- Location /data/profiles/property-radar (separate agent home: own config, memory, skills, sessions, key). Copies of SOUL.md/config.yaml/profile.yaml versioned in profiles/property-radar/ (NO .env).
+- Model: anthropic/claude-sonnet-5.5 via OpenRouter. Toolsets (cli + api_server): file, memory, session_search, skills, todo, web. Disabled: terminal, code_execution, browser, vision, image_gen, tts, connections, delegation, cronjob, computer_use, clarify. No MCP servers (no n8n, no Google).
+- Skills: property-opportunity-research only (copied). Identity/guardrails in SOUL.md.
+- Key: OPENROUTER_API_KEY copied (not displayed) from the main profile's .env into the profile's .env (shared account/limit). TODO: replace with a dedicated OpenRouter key with a spend cap.
+- Verified: one-shot chat answered as the analyst, listed only the allowed tools, read the Scorer prompt.
+- Limits: profiles isolate config/memory/skills, NOT the OS: same user and server, file tool can read other /data paths. Mitigation = no terminal, no connections, narrow API key; harder wall = separate server.
+- One profile = one agent home; several Paperclip agents on one profile share its memory (Hermes advises one profile per agent). Plan: research profile (Scorer, Path analyst), later a separate writing/outreach profile for personal data.
+- NEXT: enable API server for this profile (multiplexed gateway /p/property-radar/, own API key created by Rob, restart needs approval; public reachability of the container unknown).
