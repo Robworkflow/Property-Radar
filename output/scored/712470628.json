@@ -1,0 +1,35 @@
+{
+ "pin": "712470628",
+ "address": "28 Roland Street",
+ "verdict": "UNCLEAR",
+ "confidence": 0.45,
+ "flags": [
+  "RECENTLY_SOLD_UNVERIFIED"
+ ],
+ "checks_done": {
+  "city_docs": true,
+  "address_pin": true,
+  "neighbour_assembly": true,
+  "listing": false
+ },
+ "evidence": [
+  {
+   "claim": "City 'Current development applications' list has no entry for this address (no Roland St entry)",
+   "url": "https://guelph.ca/city-government/planning-and-development/current-development-applications/",
+   "date": "2026-10-23 (retrieved)"
+  },
+  {
+   "claim": "Active Development Files archive has no entry for this address",
+   "url": "https://guelph.ca/category/active-development-files/",
+   "date": "2026-10-23 (retrieved)"
+  },
+  {
+   "claim": "A realtor agent page lists '28 Roland St' (2 bed, 1 bath, ~1100 sq ft house, 85 ft frontage) as SOLD at $719,900 - an owner-occupier-scale house sale; sale date not shown, may or may not be this Guelph lot.",
+   "url": "https://redbrickreb.com/agent/ronnie-fraresso/",
+   "date": "unknown"
+  }
+ ],
+ "neighbours_in_play": [],
+ "summary": "No planning application found; a realtor page suggests 28 Roland St sold as a house for $719,900 (date unknown), so ownership may have changed recently. 13 units is a bylaw ceiling only; not an assembly, small 907 m2 lot.",
+ "next_action": "watch"
+}

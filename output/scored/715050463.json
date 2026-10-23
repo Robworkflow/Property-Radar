@@ -1,0 +1,35 @@
+{
+ "pin": "715050463",
+ "address": "88 Arkell Road",
+ "verdict": "UNCLEAR",
+ "confidence": 0.55,
+ "flags": [
+  "HERITAGE_UNVERIFIED"
+ ],
+ "checks_done": {
+  "city_docs": true,
+  "address_pin": true,
+  "neighbour_assembly": true,
+  "listing": false
+ },
+ "evidence": [
+  {
+   "claim": "City 'Current development applications' list (Oct 2026) has no entry for 82 or 88 Arkell Road; only Arkell entries are 190-216 Arkell Rd (OZS18-008) and 220 Arkell Rd (OZS19-017), different lots.",
+   "url": "https://guelph.ca/city-government/planning-and-development/current-development-applications/",
+   "date": "2026-10-22 (retrieved)"
+  },
+  {
+   "claim": "Active Development Files archive lists only 190-216 and 220 Arkell Road for Arkell Road; nothing for 82/88.",
+   "url": "https://guelph.ca/category/active-development-files/",
+   "date": "2026-10-22 (retrieved)"
+  },
+  {
+   "claim": "Search '\"88 Arkell Road\" Guelph for sale OR sold OR development' returned only unrelated Arkell Rd condo/townhouse listings (167, 361, 60 Arkell); no listing/sale/application for 88.",
+   "url": "https://condos.ca/guelph",
+   "date": "2026-10-23"
+  }
+ ],
+ "neighbours_in_play": [],
+ "summary": "No application, assembly, listing or sale found for 88 (or neighbour 82) Arkell Road; heritage register PDF and MLS could not be read, so absence of evidence only. 18 units is a bylaw ceiling (setbacks, parking, servicing ignored).",
+ "next_action": "verify-by-human"
+}

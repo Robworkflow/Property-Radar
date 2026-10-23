@@ -1,0 +1,41 @@
+{
+  "pin": "712470615",
+  "address": "267 Bristol Street, Guelph",
+  "verdict": "UNCLEAR",
+  "confidence": 0.55,
+  "flags": [
+    "RECENTLY_SOLD",
+    "LISTED_THEN_SOLD",
+    "ASSEMBLY_SOLD_AS_261-267",
+    "TRUNK_SEWER_EASEMENT",
+    "HOLDING_H12"
+  ],
+  "checks_done": {
+    "city_docs": true,
+    "address_pin": true,
+    "neighbour_assembly": true,
+    "listing": true
+  },
+  "evidence": [
+    {
+      "claim": "261-267 Bristol St (assembled, 0.623 ac) listed for sale at $1,885,000 as a townhouse development opportunity (22-29 units conceptual), listed since 2026-01-22; page now says 'no longer available'",
+      "url": "https://www.remaxtwincity.ca/details/161989692/261-267%20Bristol%20Street",
+      "date": "2026-01-22"
+    },
+    {
+      "claim": "Listing aggregator shows 261-267 Bristol SOLD 29 July 2026 for $950,000 (MLS X13165708, zoning RH.7(H12), rental bungalow + duplex, existing trunk sewer easement to be relocated); buyer unknown, aggregator not independently verified",
+      "url": "https://guelph.listing.ca/261-267-bristol-street.htm",
+      "date": "2026-07-29"
+    },
+    {
+      "claim": "No Bristol St 261-267 entry on City current development applications list or Q1 2026 planning data report (applications table)",
+      "url": "https://guelph.ca/city-government/planning-and-development/current-development-applications/",
+      "date": "2026-10-23"
+    }
+  ],
+  "neighbours_in_play": [
+    "261 Bristol Street (sold together with 267)"
+  ],
+  "summary": "267 Bristol was marketed with 261 as a 0.623 ac townhouse-development assembly and reportedly sold 2026-07-29 for $950k to an unknown buyer; no planning application found. Not OPEN: ownership has just changed and buyer (developer vs investor) is unverified. Unit count 20 is a bylaw ceiling; sewer easement/H12 hold would constrain it.",
+  "next_action": "verify-by-human"
+}

@@ -1,0 +1,37 @@
+{
+  "pin": "714900398",
+  "address": "64 Harts Lane West, Guelph",
+  "verdict": "UNCLEAR",
+  "confidence": 0.5,
+  "flags": [
+    "PRECONSULT_NEARBY_UNVERIFIED"
+  ],
+  "checks_done": {
+    "city_docs": false,
+    "address_pin": true,
+    "neighbour_assembly": true,
+    "listing": false
+  },
+  "evidence": [
+    {
+      "claim": "Address search (quoted address; Harts Lane West + development/ZBA/pre-consultation/for-sale) returned no application, listing or sale for 64 Harts Lane West",
+      "url": "unknown",
+      "date": "2026-10-23"
+    },
+    {
+      "claim": "City current development applications list and Q1 2026 planning data report contain no Harts Lane West entry (only 1166-1204 Gordon, 2021 Gordon, 716 Gordon, etc.)",
+      "url": "https://guelph.ca/wp-content/uploads/Q1-2026-City-of-Guelph-Municipal-Planning-Data-Report-June-24-2026.pdf",
+      "date": "2026-06-24"
+    },
+    {
+      "claim": "Older (2018) ZBA ZC1713 covered 24-46 Harts Lane West & 1119 Gordon (Gordon St intensification corridor site 3) - >5 yrs, context only, 64 not named",
+      "url": "https://guelph.ca/wp-content/uploads/council_agenda_040918.pdf",
+      "date": "2018-04-09"
+    }
+  ],
+  "neighbours_in_play": [
+    "46 Harts Lane West (PRE24 pre-consultation per parent task, file not located)"
+  ],
+  "summary": "No application, listing or sale found for 64 Harts Lane West, but the pre-consultation near 46 Harts Lane West could not be read and the City permit/application search is not scriptable, so absence is not proof. Unit count 19 is a bylaw ceiling.",
+  "next_action": "verify-by-human"
+}

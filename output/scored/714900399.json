@@ -1,0 +1,40 @@
+{
+ "pin": "714900399",
+ "address": "72 Harts Lane West",
+ "verdict": "UNCLEAR",
+ "confidence": 0.4,
+ "flags": [
+  "LISTED_UNVERIFIED"
+ ],
+ "checks_done": {
+  "city_docs": true,
+  "address_pin": true,
+  "neighbour_assembly": true,
+  "listing": false
+ },
+ "evidence": [
+  {
+   "claim": "City 'Current development applications' list has no entry for this address (no Harts Lane entry)",
+   "url": "https://guelph.ca/city-government/planning-and-development/current-development-applications/",
+   "date": "2026-10-23 (retrieved)"
+  },
+  {
+   "claim": "Active Development Files archive has no entry for this address",
+   "url": "https://guelph.ca/category/active-development-files/",
+   "date": "2026-10-23 (retrieved)"
+  },
+  {
+   "claim": "Realtor aggregator shows '72 Harts Lane W, Guelph' as detached 3bd/2ba 1500-2000 sqft, $950,000, MLS X12689944 (Royal LePage Royal City Realty); listing date not shown, MLS number is older than current X14xxxxx listings so may be stale/sold.",
+   "url": "https://www.gta-homes.com/guelph-real-estate/houses-for-sale/",
+   "date": "unknown"
+  },
+  {
+   "claim": "A second aggregator shows 72 HARTS Lane W, N1G4W9 listed by RE/MAX Solid Gold Realty at $646,000 (4bd/4ba) - conflicting price/agent; unverified, page could not be loaded to confirm date.",
+   "url": "https://www.nestrealty.ca/ON/Guelph-kortright-West",
+   "date": "unknown"
+  }
+ ],
+ "neighbours_in_play": [],
+ "summary": "No planning application found; address appears on third-party listing aggregators ($950,000 and $646,000, undated, conflicting) so it may be/have been on the market as a house. Listing status/date needs a human MLS check.",
+ "next_action": "verify-by-human"
+}

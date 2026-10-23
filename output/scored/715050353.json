@@ -1,0 +1,37 @@
+{
+  "pin": "715050353",
+  "address": "1236 Gordon Street, Guelph",
+  "verdict": "UNCLEAR",
+  "confidence": 0.5,
+  "flags": [
+    "NEIGHBOUR_ASSEMBLY",
+    "APPEAL"
+  ],
+  "checks_done": {
+    "city_docs": true,
+    "address_pin": true,
+    "neighbour_assembly": true,
+    "listing": false
+  },
+  "evidence": [
+    {
+      "claim": "1236 Gordon is NOT named in Tricar's OZS20-004 / ESA (1242, 1250, 1260, 1270 Gordon + 9 Valley) but is directly adjacent (~50 m from 9 Valley) to that assembly, which is under OLT appeal OLT-24-001186",
+      "url": "https://guelph.ca/2020/07/1242-1260-gordon-street-and-9-valley-road/",
+      "date": "2020-07"
+    },
+    {
+      "claim": "Address search found no application, listing or sale for 1236 Gordon St Guelph (only Redwood City CA hits); not in Q1 2026 planning data report",
+      "url": "https://guelph.ca/wp-content/uploads/Q1-2026-City-of-Guelph-Municipal-Planning-Data-Report-June-24-2026.pdf",
+      "date": "2026-06-24"
+    }
+  ],
+  "neighbours_in_play": [
+    "1242 Gordon",
+    "1250 Gordon",
+    "1260 Gordon",
+    "1270 Gordon",
+    "9 Valley Road"
+  ],
+  "summary": "Not found in any application or listing, but it sits next to Tricar's appealed 377-unit assembly, so a quiet purchase or add-on is plausible; MLS listing check not possible. Unit count 19 is a bylaw ceiling; appeal OLT-23-000462 zone caveat applies (use stricter zoning).",
+  "next_action": "verify-by-human"
+}

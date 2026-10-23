@@ -1,0 +1,46 @@
+{
+  "pin": "715050352",
+  "address": "9 Valley Road, Guelph",
+  "verdict": "TAKEN",
+  "confidence": 0.97,
+  "flags": [
+    "NEIGHBOUR_ASSEMBLY",
+    "APPEAL"
+  ],
+  "checks_done": {
+    "city_docs": true,
+    "address_pin": true,
+    "neighbour_assembly": true,
+    "listing": true
+  },
+  "evidence": [
+    {
+      "claim": "9 Valley Rd is a named subject lot of Tricar OZS20-004 (OPA/ZBA/draft plan; two 12-storey apartments, 377 units) at 1242-1270 Gordon St and 9 Valley Rd",
+      "url": "https://guelph.ca/2020/07/1242-1260-gordon-street-and-9-valley-road/",
+      "date": "2020-07"
+    },
+    {
+      "claim": "Phase I ESA covers 9 Valley Rd + 1242/1250/1260/1270 Gordon (assembly)",
+      "url": "https://guelph.ca/wp-content/uploads/1242-1270-Gordon-9-Valley-ESA-PhaseI-July-2021.pdf",
+      "date": "2021-07"
+    },
+    {
+      "claim": "OLT-24-001186 non-decision appeal for the assembly; 1242-1270 Gordon + 9 Valley still listed under Current Development Projects",
+      "url": "https://guelph.ca/city-government/planning-and-development/current-development-applications/",
+      "date": "2026-10-23"
+    },
+    {
+      "claim": "Parent task confirms assembly (OZS20-004, 23T-20001, OLT-24-001186); see also scored/715050447.json",
+      "url": "https://pub-guelph.escribemeetings.com/filestream.ashx?DocumentId=71872",
+      "date": "2025-09-17"
+    }
+  ],
+  "neighbours_in_play": [
+    "1242 Gordon",
+    "1250 Gordon",
+    "1260 Gordon",
+    "1270 Gordon"
+  ],
+  "summary": "9 Valley Rd is part of Tricar's 1242-1270 Gordon assembly, an active application under OLT appeal. Not available.",
+  "next_action": "drop"
+}

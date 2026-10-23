@@ -1,0 +1,35 @@
+{
+ "pin": "712410334",
+ "address": "7 College Avenue West",
+ "verdict": "UNCLEAR",
+ "confidence": 0.5,
+ "flags": [
+  "HERITAGE_UNVERIFIED"
+ ],
+ "checks_done": {
+  "city_docs": true,
+  "address_pin": true,
+  "neighbour_assembly": true,
+  "listing": false
+ },
+ "evidence": [
+  {
+   "claim": "City 'Current development applications' list has no entry for this address (only College Ave W entry is 81 College Avenue West, OZS26-005 zone change; 210-222 College Ave E is a different area)",
+   "url": "https://guelph.ca/city-government/planning-and-development/current-development-applications/",
+   "date": "2026-10-23 (retrieved)"
+  },
+  {
+   "claim": "Active Development Files archive has no entry for this address",
+   "url": "https://guelph.ca/category/active-development-files/",
+   "date": "2026-10-23 (retrieved)"
+  },
+  {
+   "claim": "Searches for '7 College Avenue West' / '7 College Ave W' + development/ZBA/site plan/for sale/sold found no application, listing or sale for no. 7; heritage register snippets list 83, 103, 204 College Ave W, not 7 (full PDF not readable).",
+   "url": "https://guelph.ca/wp-content/uploads/MunicipalRegisterofCulturalHeritageProperties.pdf",
+   "date": "undated register (retrieved 2026-10-23)"
+  }
+ ],
+ "neighbours_in_play": [],
+ "summary": "No application, assembly or listing found for 7 College Ave W; 81 College Ave W has a zone-change application but is a different lot; MLS and full heritage register not checkable. 15 units is a bylaw ceiling only.",
+ "next_action": "verify-by-human"
+}

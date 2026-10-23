@@ -1,0 +1,41 @@
+{
+  "pin": "715050364",
+  "address": "1170 Gordon Street, Guelph",
+  "verdict": "TAKEN",
+  "confidence": 0.93,
+  "flags": [
+    "NEIGHBOUR_ASSEMBLY"
+  ],
+  "checks_done": {
+    "city_docs": true,
+    "address_pin": true,
+    "neighbour_assembly": true,
+    "listing": false
+  },
+  "evidence": [
+    {
+      "claim": "1170 Gordon is one of 1166, 1170, 1182, 1190, 1200, 1204 Gordon St owned by GSD Development and Management: two 6-storey apartments (122 units) + 21 townhouses",
+      "url": "https://www.guelphtoday.com/local-news/housing-proposal-along-gordon-street-revised-fewer-units-planned-7137936",
+      "date": "2023-06-15"
+    },
+    {
+      "claim": "Council passed site-specific zoning By-laws 20958/20959 (OZS22-007) for 1166-1204 Gordon St (RM.5-3(PA) and RM.6-28(PA))",
+      "url": "https://pub-guelph.escribemeetings.com/filestream.ashx?DocumentId=49981",
+      "date": "2024-07-09"
+    },
+    {
+      "claim": "Consent (severance) applications B-426 to B-2326 for 1166-1204 Gordon St provisionally given - development proceeding",
+      "url": "https://guelph.ca/wp-content/uploads/Q1-2026-City-of-Guelph-Municipal-Planning-Data-Report-June-24-2026.pdf",
+      "date": "2026-03-18"
+    }
+  ],
+  "neighbours_in_play": [
+    "1166",
+    "1182",
+    "1190",
+    "1200",
+    "1204 Gordon Street"
+  ],
+  "summary": "1170 Gordon is inside the approved GSD 1166-1204 Gordon assembly (ZBA passed July 2024, severances Jan-Mar 2026). Not available.",
+  "next_action": "drop"
+}

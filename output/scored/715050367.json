@@ -1,0 +1,38 @@
+{
+ "pin": "715050367",
+ "address": "1152 Gordon Street",
+ "verdict": "UNCLEAR",
+ "confidence": 0.5,
+ "flags": [
+  "NEIGHBOUR_ASSEMBLY_POSSIBLE",
+  "HERITAGE_UNVERIFIED"
+ ],
+ "checks_done": {
+  "city_docs": true,
+  "address_pin": true,
+  "neighbour_assembly": true,
+  "listing": false
+ },
+ "evidence": [
+  {
+   "claim": "City 'Current development applications' list has no entry for this address (nearest is 1242-1270 Gordon St / 9 Valley Rd, Tricar OPA/ZBA/subdivision, 377 apartment units - a different group of lots)",
+   "url": "https://guelph.ca/city-government/planning-and-development/current-development-applications/",
+   "date": "2026-10-23 (retrieved)"
+  },
+  {
+   "claim": "Active Development Files archive has no entry for this address",
+   "url": "https://guelph.ca/category/active-development-files/",
+   "date": "2026-10-23 (retrieved)"
+  },
+  {
+   "claim": "Searches '1152 Gordon Street'/'1160 Gordon Street' + development/ZBA/site plan/sold/assembly found nothing for these Guelph lots (only LA 1152 Gordon St rentals and generic Gordon St corridor docs).",
+   "url": "https://guelph.ca/wp-content/uploads/UDConceptPlansfortheGordonStreetIntensificationCorridor.pdf",
+   "date": "2018-03-09 (context only, >5y)"
+  }
+ ],
+ "neighbours_in_play": [
+  "1160 Gordon Street (also scored; same strip, also R.1B->RM.5)"
+ ],
+ "summary": "No application, listing or sale found for 1152 Gordon (Guelph), but it is on the Gordon Street intensification corridor near an active 377-unit application at 1242-1270 Gordon and no MLS check was possible. 16 units is a bylaw ceiling only.",
+ "next_action": "verify-by-human"
+}
