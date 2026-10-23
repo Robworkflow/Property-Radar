@@ -1,0 +1,22 @@
+# Regenerable bulk data (rebuild with the scripts; source = City of Guelph Open Data)
+output/parcels_overlay.json
+output/parcel_use.json
+output/opportunities.json
+output/upgrade_candidates.json
+output/web_check.json
+output/city_dev_files.json
+output/opps_*.csv
+output/scorer_queue.json
+# Caches / temp
+*.geojson
+__pycache__/
+*.pyc
+# Personal data: owner names, mailing addresses, outreach drafts — never in git
+outreach/
+owners/
+*.owner.*
+# Secrets
+.env
+*.key
+*.pem
+id_*
