@@ -68,3 +68,9 @@ Not reachable: guelph.ca HTML pages (403 to scripts; Cloudflare check also stops
 - Search hours: Mon-Thu 4am-midnight, Fri to 9pm, Sat 9-6, Sun 9-9 ET.
 - Not yet checked: OnLand terms of service on automated use -> keep human-in-the-loop. GeoWarehouse ($3,900+/yr) break-even ~100 lookups/yr; eligibility for non-professionals unknown.
 - Listing/sold status: free consumer sites (HouseSigma/Zolo/Zoocasa) read via browser; no official MLS feed; not yet tested.
+
+## 10. Decisions logged (Rob, Oct 23 2026)
+- Ownership names (gap #1): RESOLVED as a manual step — Rob's partner holds a GeoWarehouse licence and supplies owner info free on request. Not automatable (licence is the partner's); the agents only produce the PIN/address list to send him. No OnLand purchases.
+- Contact/mailing-address gathering + owner-occupied vs rented check: SHELVED for the Scorer agent build (not now).
+- Vacant land: low priority (separate list only).
+- Next phase: infrastructure alignment (GitHub, Paperclip, skills, rate limit, schedule, 9 roles).
