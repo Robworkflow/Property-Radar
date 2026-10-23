@@ -5,7 +5,7 @@ City overlay: for each NEW zoning polygon, find OLD polygon containing its rep p
 summarize (old->new) zone-pair changes by polygon count and area.
 One-pagers: address -> old zone, new zone, family jump, PIN, lot area (m2), rough unit potential.
 """
-import json, os, time, math, argparse, urllib.request, urllib.parse
+import json, os, time, math, argparse, re, urllib.request, urllib.parse
 from collections import defaultdict
 from shapely.geometry import shape, Point
 from shapely.strtree import STRtree
@@ -131,13 +131,18 @@ def one_pager(street_no, street_name):
     print(f'  OLD (1995): {old}   NEW (2023): {new}   {"FAMILY CHANGE" if family(old)!=family(new) else "same family"}')
     if area: print(f'  Lot area: {area:,.0f} m² ({area/10000:.2f} ha)')
     if new and ('RM' in new or 'RL' in new or 'RH' in new):
-        lo, hi = 0, 0
-        if 'RM' in new: lo, hi = 35, 100
-        if 'RL' in new: lo, hi = 20, 45
-        if 'RH' in new: lo, hi = 100, 250
-        if area:
-            print(f'  Density {lo}-{hi} u/ha → rough potential: {area/10000*lo:.0f}-{area/10000*hi:.0f} units')
-            print(f'  (existing units unknown — assess separately)')
+        zt = json.load(open('/data/property-agents/data/zone_tables.json'))['zones']
+        # base zone code (strip site-specific suffix, e.g. RL.1-3 -> RL.1)
+        base = re.sub(r'-\d+.*$', '', new)
+        info = zt.get(base, zt.get(new, {}))
+        if area and info.get('density_uph_min') is not None:
+            lo, hi = info['density_uph_min'], info['density_uph_max']
+            print(f'  Zone {new}: {lo}-{hi} u/ha → rough potential: {area/10000*lo:.0f}-{area/10000*hi:.0f} units (min lot frontage {info.get("min_lot_frontage_m")})')
+            print(f'  (height {info.get("height")}; existing units unknown — assess separately)')
+        else:
+            cap = 4 if base in ('RL.1', 'RL.2') else '?'
+            print(f'  Zone {new}: unit-capped type — max ~{cap} units per lot (By-law 2024-21024 ADU), min lot area {info.get("min_lot_area_m2","n/a")} m²')
+            print(f'  (height {info.get("height")}; existing units unknown — assess separately)')
     print(f'  Owner: {(pa or {}).get("OWNERSHIP") or "n/a"}')
 
 if __name__ == '__main__':

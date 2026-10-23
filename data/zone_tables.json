@@ -1,0 +1,52 @@
+{
+  "source": "City of Guelph, Zoning Bylaw (2023)-20790, consolidated PDF (guelph.ca/wp-content/uploads/Guelph-Zoning-Bylaw-2023.pdf, wayback 2026-01-17 snapshot; text extracted 2026-10-23). In force Feb 6 2024; parts under OLT appeal (OLT-23-000462) -> 1995 bylaw applies where appealed; partial settlement Mar 2026 not yet in interpretation doc.",
+  "zones": {
+    "RL.1": {
+      "uses": "single detached, semi-detached, duplex, multi-unit up to 3 units (By-law 2024-21024: up to 4 units on low-density lots, not yet consolidated)",
+      "density_uph": "unit-capped (max 3-4 units per lot)",
+      "min_lot_area_m2": 460, "min_lot_frontage_m": 15,
+      "height": "max 3 storeys", "front_yard_m": "6-10", "interior_side_yard_m": 1.5, "rear_yard_m": "7.5 or 20% of depth",
+      "table": "6.2-6.5 / 6.3.1"
+    },
+    "RL.2": {
+      "uses": "same as RL.1",
+      "density_uph": "unit-capped (max 3-4 units per lot)",
+      "min_lot_area_m2": 275, "min_lot_frontage_m": "9 interior / 12 corner",
+      "height": "max 3 storeys", "front_yard_m": "6-10",
+      "table": "6.2-6.5 / 6.3.1"
+    },
+    "RL.3": {
+      "uses": "on-street + rear-access townhouses (with RM.5)",
+      "density_uph": "VERIFY: Table 6.10 density cell not in text layer (assumed ~35 from RL.4 pattern)",
+      "height": "max 3 storeys (per Table 6.12/6.16)", "min_lot_frontage_per_unit_m": 5.5,
+      "table": "6.10-6.16 / 6.3.3"
+    },
+    "RL.4": {
+      "uses": "townhouses, apartments",
+      "density_uph": "townhouse max 35; apartment max 35 (site-specific up to 100, e.g. RL.4-18 Beechwood)",
+      "height": "2-3 storeys", "front_yard_m": "6-10", "interior_side_yard_m": 3, "rear_yard_m": 7.5,
+      "landscaped_pct": 20, "table": "6.17-6.22 / 6.3.4-6.3.6"
+    },
+    "RM.5": {
+      "uses": "townhouses, apartments",
+      "density_uph_min": 35, "density_uph_max": 100,
+      "height": "2-4 storeys", "front_yard_m": "6-11", "interior_side_yard_m": 3, "rear_yard_m": 7.5,
+      "landscaped_pct": 20, "building_length_m_max": 75,
+      "table": "6.11-6.16, 6.24-6.26 / 6.3.3, 6.3.7"
+    },
+    "RM.6": {
+      "uses": "townhouses, apartments",
+      "density_uph_min": 35, "density_uph_max": 100,
+      "height": "2-6 storeys", "front_yard_m": "6-11", "interior_side_yard_m": 3, "rear_yard_m": 7.5,
+      "landscaped_pct": 40, "townhouse_density_max_uph": 100,
+      "table": "6.17-6.19, 6.28-6.31 / 6.3.5, 6.3.8"
+    },
+    "RH.7": {
+      "uses": "apartments (high density)",
+      "density_uph_min": 100, "density_uph_max": 150,
+      "height": "3-10 storeys", "front_yard_m": "6-11", "interior_side_yard_m": 3, "rear_yard_m": 7.5,
+      "landscaped_pct": 40, "table": "6.32-6.34 / 6.3.9"
+    }
+  },
+  "note": "Old bylaw (1995)-14864 equivalents: R.4A -> RM.5/RM.6 family shift (density upgrade). RL.1 now permits multi-unit where R.1B did not (small-multi unlock)."
+}
