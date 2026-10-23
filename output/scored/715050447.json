@@ -1,0 +1,72 @@
+{
+  "pin": "715050447",
+  "address": "1260 Gordon Street, Guelph",
+  "verdict": "TAKEN",
+  "confidence": 0.95,
+  "flags": [
+    "NEIGHBOUR_ASSEMBLY",
+    "APPEAL"
+  ],
+  "checks_done": {
+    "city_docs": true,
+    "address_pin": true,
+    "neighbour_assembly": true,
+    "listing": true
+  },
+  "evidence": [
+    {
+      "claim": "1260 Gordon is a named subject lot in Tricar's OPA/ZBA/draft plan application (OZS20-004, 23T-20001) for 1242-1260 Gordon St and 9 Valley Rd; Notice of Public Meeting",
+      "url": "https://guelph.ca/wp-content/uploads/Sept-14-2020-Notice-of-Public-Meeting-1242-1260-Gordon-St-and-9-Valley-Rd-A.pdf",
+      "date": "2020-08-20"
+    },
+    {
+      "claim": "Tricar-commissioned Phase I ESA covers 9 Valley Rd + 1242, 1250, 1260, 1270 Gordon; describes 1260 Gordon as ~1.19 ha vacant rectangular lot (matches engine 11,858 m2 / 0 buildings) - read and confirmed",
+      "url": "https://guelph.ca/wp-content/uploads/1242-1270-Gordon-9-Valley-ESA-PhaseI-July-2021.pdf",
+      "date": "2021-07"
+    },
+    {
+      "claim": "Tricar site plan / FSR covering 1242-1270 Gordon + 9 Valley (two ~10-12 storey rental buildings); project drawing file named '1260 Gordon St., Guelph__Tricar'",
+      "url": "https://guelph.ca/wp-content/uploads/1242-1270-Gordon-9-Valley-FSR-June-2022.pdf",
+      "date": "2022-06-08"
+    },
+    {
+      "claim": "Tricar Record of Site Condition filed for the assembly (property-use change preparation)",
+      "url": "https://guelph.ca/wp-content/uploads/1242-1270-Gordon-9-Valley-RSC-June-2022.pdf",
+      "date": "2022-06-30"
+    },
+    {
+      "claim": "Tricar appealed to OLT (OLT-24-001186, non-decision of OPA application) for 1242-1270 Gordon St and 9 Valley Rd; listed in City litigation status report (search snippet of the Sept 17 2025 version; the URL now serves a March 18 2026 version whose extractable text did not reach this row)",
+      "url": "https://pub-guelph.escribemeetings.com/filestream.ashx?DocumentId=71872",
+      "date": "2025-09-17"
+    },
+    {
+      "claim": "Council closed-session 'Ontario Land Tribunal Update' on 1242-1270 Gordon St and 9 Valley Rd (Tricar 12-storey apartment; Tricar went to OLT in early 2024) on May 26 2026 agenda - read and confirmed",
+      "url": "https://guelphpolitico.ca/2026/05/15/city-council-preview-whats-on-the-agenda-for-the-may-26-2026-meeting/",
+      "date": "2026-05-15"
+    },
+    {
+      "claim": "Tricar markets '2 premier rental buildings coming soon to 1250 Gordon Street' (undated page)",
+      "url": "https://www.tricar.com/locations/1250-gordon-street/",
+      "date": "unknown"
+    },
+    {
+      "claim": "OLT decision issued May 29 2026 in OLT-23-000462 (comprehensive zoning by-law 2023-20790 appeals) exists; I did not read it for RH.7/this parcel, so zoning appeal coverage of 1260 Gordon is unverified",
+      "url": "https://guelph.ca/wp-content/uploads/10.-Ontario-Land-Tribunal-Decision-OLT-23-000462-May-2026.pdf",
+      "date": "2026-05-29"
+    },
+    {
+      "claim": "No for-sale or recently-sold listing found for 1260 Gordon St in searches (only unrelated condo listings at 1291/1880 Gordon); PIN search returned nothing relevant",
+      "url": "unknown",
+      "date": "2026-10-22"
+    }
+  ],
+  "neighbours_in_play": [
+    "1242 Gordon Street",
+    "1250 Gordon Street",
+    "1270 Gordon Street",
+    "9 Valley Road"
+  ],
+  "summary": "1260 Gordon is part of Tricar's named 1242-1270 Gordon St + 9 Valley Rd assembly (OZS20-004/23T-20001), now at OLT (OLT-24-001186) and still on council's May 2026 agenda, so it is not available despite showing vacant in the GIS. Ownership/sale-to-Tricar not confirmed by title or listing, but application coverage alone makes it TAKEN.",
+  "next_action": "drop",
+  "notes": "Unit ceiling 119-178 is a bylaw ceiling, not approvable. Not verified: title/ownership, outcome of OLT-24-001186, whether OLT-23-000462 covers this parcel. guelph.ca PDFs extracted via web_extract this run; MLS/PIN search yielded nothing relevant."
+}

@@ -1,0 +1,40 @@
+{
+ "pin": "715050462",
+ "address": "82 Arkell Road",
+ "verdict": "UNCLEAR",
+ "confidence": 0.55,
+ "flags": [
+  "HERITAGE_UNVERIFIED"
+ ],
+ "checks_done": {
+  "city_docs": true,
+  "address_pin": true,
+  "neighbour_assembly": true,
+  "listing": false
+ },
+ "evidence": [
+  {
+   "claim": "City 'Current development applications' list (Oct 2026) has no entry for 82 or 88 Arkell Road; only Arkell entries are 190-216 Arkell Rd (OZS18-008) and 220 Arkell Rd (OZS19-017), different lots.",
+   "url": "https://guelph.ca/city-government/planning-and-development/current-development-applications/",
+   "date": "2026-10-22 (retrieved)"
+  },
+  {
+   "claim": "Active Development Files archive lists only 190-216 and 220 Arkell Road for Arkell Road; nothing for 82/88.",
+   "url": "https://guelph.ca/category/active-development-files/",
+   "date": "2026-10-22 (retrieved)"
+  },
+  {
+   "claim": "Searches for '82 Arkell Road' Guelph (+ development/ZBA/site plan/for sale/sold), the PIN 715050462, and '88 Arkell Road' returned no application, listing, sale or assembly for these lots. Only hit for '82 Arkell Road' is a 1984 clerk's cc line (mailing address of a recipient) in the Ontario Heritage Act register file for 16 Oxford St / 88 London Rd W - NOT a designation of 82 Arkell.",
+   "url": "https://www.heritagetrust.on.ca/oha/details/file?id=2872",
+   "date": "1984-03-21 (letter; low relevance, >5 yrs)"
+  },
+  {
+   "claim": "Nearby 220 Arkell Rd ZBA/subdivision (OZS19-017) at statutory public meeting 2026-06-09, decision meeting Sept 2026; 190-216 Arkell Rd (OZS18-008) revised notice Aug 2024. Different parcels; neither names 82/88 in what was seen.",
+   "url": "https://guelphpolitico.ca/2026/08/28/city-council-preview-whats-on-the-agenda-for-the-september-9-2026-meetings/",
+   "date": "2026-08-28"
+  }
+ ],
+ "neighbours_in_play": [],
+ "summary": "No application, assembly, listing or sale found for 82 or 88 Arkell Road in city lists or web search, but the Municipal Heritage Register PDF (403) and the GPAS permit search could not be read and no MLS/realtor listing check was possible. Absence of evidence only, so UNCLEAR; engine ceiling of 18 units is a bylaw maximum (setbacks, parking, servicing ignored; 13% coverage, 1 building).",
+ "next_action": "verify-by-human"
+}
