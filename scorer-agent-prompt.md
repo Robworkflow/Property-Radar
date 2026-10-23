@@ -14,7 +14,9 @@ Date every source. Ignore evidence older than 5 years unless it describes a stil
 ## Verdicts (pick exactly one)
 - TAKEN: a current application/approval/construction, or sold/under contract to a developer, covers this parcel (alone or as part of a named assembly).
 - OPEN: no current application/assembly found AND you looked for all of: city planning docs, address+PIN search, neighbour-assembly search, listing check.
-- UNCLEAR: sources blocked/thin, or evidence ambiguous. Absence of evidence is NOT OPEN unless every check above was done - say which were not.
+- OPEN-PROVISIONAL: city planning docs, address+PIN search AND neighbour-assembly search were all done and found NO application, approval, assembly or sale/listing. Only what the tools cannot reach (MLS, title/ownership, heritage register, permit search) is unchecked. next_action = verify-by-human, listing the specific manual checks. Use this instead of UNCLEAR whenever the three doable checks came up clean.
+- OPEN: reserved for after a human has confirmed ownership/listing status.
+- UNCLEAR: a doable check was blocked/thin, evidence is ambiguous or conflicting (e.g. listed/sold signals with unverifiable dates), or a neighbour is in play. Absence of evidence alone is NOT OPEN.
 Also flag: LISTED (for sale now, give price + date), RECENTLY_SOLD, HERITAGE, FLOODPLAIN/NATURAL-HERITAGE mention, APPEAL (OLT-23-000462 touches this zone), NEIGHBOUR_ASSEMBLY (a neighbouring lot is in play).
 
 ## Rules
@@ -25,7 +27,7 @@ Also flag: LISTED (for sale now, give price + date), RECENTLY_SOLD, HERITAGE, FL
 - If model tier matters: this is judgement work - use the frontier model.
 
 ## Output (JSON to output/scored/<PIN>.json)
-{"pin","address","verdict":"TAKEN|OPEN|UNCLEAR","confidence":0-1,"flags":[...],"checks_done":{"city_docs":bool,"address_pin":bool,"neighbour_assembly":bool,"listing":bool},"evidence":[{"claim","url","date"}],"neighbours_in_play":[addr],"summary":"<=2 sentences","next_action":"drop|watch|verify-by-human|prep-mail-draft"}
+{"pin","address","verdict":"TAKEN|OPEN-PROVISIONAL|OPEN|UNCLEAR","confidence":0-1,"flags":[...],"checks_done":{"city_docs":bool,"address_pin":bool,"neighbour_assembly":bool,"listing":bool},"evidence":[{"claim","url","date"}],"neighbours_in_play":[addr],"summary":"<=2 sentences","manual_checks":["title/ownership","MLS","heritage register","permit search"],"next_action":"drop|watch|verify-by-human|prep-mail-draft"}
 
 ## Ranking (after verdicts)
-Only OPEN (then UNCLEAR with next_action verify-by-human). Rank by net units gained (units_max-1) per lot m2 (bigger gain, smaller/cheaper lot first); strips of OPEN neighbours = ASSEMBLY candidate, rank by combined units.
+Only OPEN-PROVISIONAL/OPEN (then UNCLEAR with next_action verify-by-human). Rank by net units gained (units_max-1) per lot m2 (bigger gain, smaller/cheaper lot first); strips of OPEN neighbours = ASSEMBLY candidate, rank by combined units.

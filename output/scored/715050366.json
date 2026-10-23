@@ -1,7 +1,7 @@
 {
  "pin": "715050366",
  "address": "1160 Gordon Street",
- "verdict": "UNCLEAR",
+ "verdict": "OPEN-PROVISIONAL",
  "confidence": 0.5,
  "flags": [
   "NEIGHBOUR_ASSEMBLY_POSSIBLE",
@@ -34,5 +34,11 @@
   "1152 Gordon Street (also scored; adjacent, R.1B->RM.5)"
  ],
  "summary": "No application, listing or sale found for 1160 Gordon, but it sits on the Gordon corridor near the active 1242-1270 Gordon application and with 1152 Gordon forms a ~31-unit-ceiling assembly candidate; no MLS check possible. 15 units is a bylaw ceiling only.",
- "next_action": "verify-by-human"
+ "next_action": "verify-by-human",
+ "manual_checks": [
+  "title/ownership",
+  "MLS",
+  "heritage register",
+  "permit search"
+ ]
 }

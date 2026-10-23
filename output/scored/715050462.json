@@ -1,7 +1,7 @@
 {
  "pin": "715050462",
  "address": "82 Arkell Road",
- "verdict": "UNCLEAR",
+ "verdict": "OPEN-PROVISIONAL",
  "confidence": 0.55,
  "flags": [
   "HERITAGE_UNVERIFIED"
@@ -36,5 +36,11 @@
  ],
  "neighbours_in_play": [],
  "summary": "No application, assembly, listing or sale found for 82 or 88 Arkell Road in city lists or web search, but the Municipal Heritage Register PDF (403) and the GPAS permit search could not be read and no MLS/realtor listing check was possible. Absence of evidence only, so UNCLEAR; engine ceiling of 18 units is a bylaw maximum (setbacks, parking, servicing ignored; 13% coverage, 1 building).",
- "next_action": "verify-by-human"
+ "next_action": "verify-by-human",
+ "manual_checks": [
+  "title/ownership",
+  "MLS",
+  "heritage register",
+  "permit search"
+ ]
 }

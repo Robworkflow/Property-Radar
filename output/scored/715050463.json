@@ -1,7 +1,7 @@
 {
  "pin": "715050463",
  "address": "88 Arkell Road",
- "verdict": "UNCLEAR",
+ "verdict": "OPEN-PROVISIONAL",
  "confidence": 0.55,
  "flags": [
   "HERITAGE_UNVERIFIED"
@@ -31,5 +31,11 @@
  ],
  "neighbours_in_play": [],
  "summary": "No application, assembly, listing or sale found for 88 (or neighbour 82) Arkell Road; heritage register PDF and MLS could not be read, so absence of evidence only. 18 units is a bylaw ceiling (setbacks, parking, servicing ignored).",
- "next_action": "verify-by-human"
+ "next_action": "verify-by-human",
+ "manual_checks": [
+  "title/ownership",
+  "MLS",
+  "heritage register",
+  "permit search"
+ ]
 }

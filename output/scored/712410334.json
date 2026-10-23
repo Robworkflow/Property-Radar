@@ -1,7 +1,7 @@
 {
  "pin": "712410334",
  "address": "7 College Avenue West",
- "verdict": "UNCLEAR",
+ "verdict": "OPEN-PROVISIONAL",
  "confidence": 0.5,
  "flags": [
   "HERITAGE_UNVERIFIED"
@@ -31,5 +31,11 @@
  ],
  "neighbours_in_play": [],
  "summary": "No application, assembly or listing found for 7 College Ave W; 81 College Ave W has a zone-change application but is a different lot; MLS and full heritage register not checkable. 15 units is a bylaw ceiling only.",
- "next_action": "verify-by-human"
+ "next_action": "verify-by-human",
+ "manual_checks": [
+  "title/ownership",
+  "MLS",
+  "heritage register",
+  "permit search"
+ ]
 }

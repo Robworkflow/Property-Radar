@@ -1,7 +1,7 @@
 {
  "pin": "715050367",
  "address": "1152 Gordon Street",
- "verdict": "UNCLEAR",
+ "verdict": "OPEN-PROVISIONAL",
  "confidence": 0.5,
  "flags": [
   "NEIGHBOUR_ASSEMBLY_POSSIBLE",
@@ -34,5 +34,11 @@
   "1160 Gordon Street (also scored; same strip, also R.1B->RM.5)"
  ],
  "summary": "No application, listing or sale found for 1152 Gordon (Guelph), but it is on the Gordon Street intensification corridor near an active 377-unit application at 1242-1270 Gordon and no MLS check was possible. 16 units is a bylaw ceiling only.",
- "next_action": "verify-by-human"
+ "next_action": "verify-by-human",
+ "manual_checks": [
+  "title/ownership",
+  "MLS",
+  "heritage register",
+  "permit search"
+ ]
 }
