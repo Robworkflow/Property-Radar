@@ -60,3 +60,11 @@ Not reachable: guelph.ca HTML pages (403 to scripts; Cloudflare check also stops
 
 ## 8. Current results snapshot
 22 parcels scored: 3 TAKEN (1260 Gordon, 9 Valley Rd, 1170 Gordon), 14 OPEN-PROVISIONAL (Watson Pkwy N x7, Bagot 124/126, Arkell 82/88, Gordon 1152/1160, 7 College W, 148 Fleming), 5 UNCLEAR (1236 Gordon, 64 Harts, 72 Harts, 28 Roland, 267 Bristol). All 14 carry (H12). Nothing is confirmed available until ownership/MLS is checked.
+
+## 9. Ownership data — OnLand dry test (Oct 23 2026) — gap #1 partially solved
+- onland.ca (public, guest checkout, no licence). Flow worked with the browser tool: choose LRO 61 Guelph/Wellington -> Property -> PIN (block 5 digits + property 4 digits, e.g. 713330072 -> 71333 / 0072) -> "Requested by" (max 20 chars) -> result.
+- Search is FREE and returns: status (Active), land-titles type, address, legal description. It confirmed our engine's PIN -> address join (71333-0072 = 104 Elizabeth St).
+- OWNER NAMES require buying the Parcel Register: $33.40 before HST (~$37.74 with HST) per PIN, 1 page. Not purchased; stopped before the cart. Payment must be entered by Rob (no card entry by the agent).
+- Search hours: Mon-Thu 4am-midnight, Fri to 9pm, Sat 9-6, Sun 9-9 ET.
+- Not yet checked: OnLand terms of service on automated use -> keep human-in-the-loop. GeoWarehouse ($3,900+/yr) break-even ~100 lookups/yr; eligibility for non-professionals unknown.
+- Listing/sold status: free consumer sites (HouseSigma/Zolo/Zoocasa) read via browser; no official MLS feed; not yet tested.
