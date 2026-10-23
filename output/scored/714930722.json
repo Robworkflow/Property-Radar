@@ -1,0 +1,53 @@
+{
+ "pin": "714930722",
+ "address": "178 Watson Parkway North",
+ "verdict": "OPEN-PROVISIONAL",
+ "confidence": 0.5,
+ "flags": [
+  "ZONING_DATA_QUIRK_UNVERIFIED"
+ ],
+ "checks_done": {
+  "city_docs": true,
+  "address_pin": true,
+  "neighbour_assembly": true,
+  "listing": false
+ },
+ "neighbours_in_play": [],
+ "manual_checks": [
+  "title/ownership (incl. whether 178/186/198/204/238/240/248 Watson + 148 Fleming share an owner)",
+  "MLS / realtor.ca listing + sold history",
+  "heritage register",
+  "permit search (gpas.guelph.ca)",
+  "confirm zoning on Guelph zoning map (old UR -> RM.5 looks odd: 1995 'UR' = Urban Reserve; unit ceiling of 13 assumes RM.5 is real)",
+  "floodplain/natural heritage overlay (Clythe Creek area) via GRCA/City map"
+ ],
+ "next_action": "verify-by-human",
+ "evidence": [
+  {
+   "claim": "Only Watson Pkwy N application found is 115 Watson Pkwy N (Loblaws lands, 6.44 ha vacant, ZBA OZS24-015 / DPOS OZS25-014; by-law 2026-21235 passed, 1,129 units). It is bordered by Watson Rd N, ~220 m north of York Rd/Watson Rd N per 2017 ESA; not a numbered neighbour of the subject lot and its application does not name 178/240/248 Watson or 148 Fleming.",
+   "url": "https://www.ward1guelph.ca/2026/05/115-watson-parkway-north-commercial-residential-development/",
+   "date": "2026-05-04"
+  },
+  {
+   "claim": "By-law (2026)-21235 amends zoning for 115 Watson Parkway North only",
+   "url": "https://pub-guelph.escribemeetings.com/filestream.ashx?DocumentId=72493",
+   "date": "2026"
+  },
+  {
+   "claim": "guelph.ca Active Development Files lists 115 Watson Pkwy N (OZS24-015, OZS25-014); no file found for subject address",
+   "url": "https://guelph.ca/category/active-development-files/",
+   "date": "2026"
+  },
+  {
+   "claim": "Fleming Road precedent: 58 & 78 Fleming Rd draft plan of subdivision (23 detached lots) - historical, >5 yrs old, residential context only",
+   "url": "https://guelph.ca/wp-content/uploads/Council_agenda_050806.pdf",
+   "date": "2006-05-08"
+  },
+  {
+   "claim": "No web hits for address or PIN searches (no listing, sale, application) - aggregator results were only unrelated condo units at 120/269/308 Watson Pkwy N",
+   "url": "https://guelph.listing.ca/watson-parkway.htm",
+   "date": "unknown"
+  }
+ ],
+ "summary": "No application, approval, assembly, sale or listing found for this lot or the Watson Pkwy N/Fleming Rd group in city docs or web search; only 115 Watson Pkwy N (separate large site) is in play. 13-unit ceiling (not approvable) depends on old UR -> RM.5 being a real rezoning, which could not be confirmed (likely data quirk) - confirm before any further spend."
+}

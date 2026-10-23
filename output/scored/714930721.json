@@ -1,0 +1,52 @@
+{
+ "pin": "714930721",
+ "address": "186 Watson Parkway North",
+ "verdict": "OPEN-PROVISIONAL",
+ "confidence": 0.5,
+ "flags": [
+  "APPEAL",
+  "ZONING_QUIRK_UNVERIFIED"
+ ],
+ "checks_done": {
+  "city_docs": true,
+  "address_pin": true,
+  "neighbour_assembly": true,
+  "listing": false
+ },
+ "evidence": [
+  {
+   "claim": "City 'Current development applications' list has no entry for any Watson Parkway North address except 115 Watson Pkwy N (OZS24-015); no Bagot Street entry.",
+   "url": "https://guelph.ca/city-government/planning-and-development/current-development-applications/",
+   "date": "2026-10-23 (retrieved)"
+  },
+  {
+   "claim": "Web searches for \"186 Watson Parkway North\" Guelph returned no application, listing, sale, or assembly (only unrelated hits: 308 Watson Pkwy N condo listings, bus pages).",
+   "url": "web_search (no relevant URL)",
+   "date": "2026-10-23 (retrieved)"
+  },
+  {
+   "claim": "Neighbour-assembly search ('Watson Parkway North' + development/ZBA/road widening/secondary plan; 'Fleming Road' + 139/210/178) found no application naming 178-256 Watson Pkwy N or 139 Fleming Rd/210 Watson Pkwy N. Road-widening/secondary-plan search surfaced only Grange Rd widening (to Watson Pkwy N) and Clair-Maltby in the OP; no widening on this stretch found, but not parcel-verified.",
+   "url": "https://guelph.ca/wp-content/uploads/Official-Plan-Consolidation-March-2018.pdf",
+   "date": "2018-03 (OP consolidation; older than 5 yrs, low weight)"
+  },
+  {
+   "claim": "Zoning check: 'UR' is the 1995 by-law Urban Reserve zone; in the 2023 by-law (2023)-20790 other UR lands became UR.1 (existing uses only; e.g. 331 Clair Rd E A-2 -> UR.1), so UR -> RM.5 is atypical but plausible as a deliberate map change to match Medium Density Residential OP designation. Could not confirm parcel-level mapping or OP designation for these lots. Whole 2023 by-law was stated 'under appeal in its entirety' to OLT (not in force) - stricter of old/new applies.",
+   "url": "https://pub-guelph.escribemeetings.com/filestream.ashx?DocumentId=44594",
+   "date": "unknown (undated council report; 2023 by-law adopted 2023-04-18)"
+  },
+  {
+   "claim": "115 Watson Pkwy N (Guelph Watson Holdings; 1,129 units) ZBA + draft plan approved by Council 2026-05-12 (by-law 2026-21235; appeal deadline 2026-06-10; appeal outcome not checked). Engine coords put it ~400 m south of 178-204 Watson Pkwy N (lat 43.5658 vs 43.5695-43.5706) - different site, not an assembly with these lots.",
+   "url": "https://guelph.ca/city-government/by-laws-and-policies/notice-of-passed-bylaws/",
+   "date": "2026-05-12"
+  }
+ ],
+ "neighbours_in_play": [],
+ "summary": "No application, assembly, sale or listing found for 186 Watson Parkway North in city lists or web search; MLS/title/heritage/permits unchecked. UR->RM.5 looks like a deliberate but unverified 2023 by-law map change (by-law under OLT appeal), so the 13-unit figure is a ceiling, not approvable (setbacks/parking/servicing ignored; 1 building, low coverage).",
+ "manual_checks": [
+  "title/ownership",
+  "MLS",
+  "heritage register",
+  "permit search"
+ ],
+ "next_action": "verify-by-human"
+}

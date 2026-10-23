@@ -19,7 +19,9 @@
   "net_gain_max": 19,
   "dev_app": false,
   "site_specific": false,
-  "near_app": true
+  "near_app": true,
+  "zone_full": "RH.7(H12)",
+  "holding": "(H12)"
  },
  {
   "pin": "715050352",
@@ -41,7 +43,9 @@
   "net_gain_max": 19,
   "dev_app": false,
   "site_specific": false,
-  "near_app": true
+  "near_app": true,
+  "zone_full": "RH.7-22",
+  "holding": ""
  },
  {
   "pin": "714900398",
@@ -63,7 +67,9 @@
   "net_gain_max": 18,
   "dev_app": false,
   "site_specific": false,
-  "near_app": true
+  "near_app": true,
+  "zone_full": "RM.6(PA)(H12)",
+  "holding": "(H12)"
  },
  {
   "pin": "715050353",
@@ -85,7 +91,9 @@
   "net_gain_max": 18,
   "dev_app": false,
   "site_specific": false,
-  "near_app": true
+  "near_app": true,
+  "zone_full": "RM.5(PA)(H12)",
+  "holding": "(H12)"
  },
  {
   "pin": "715050364",
@@ -107,7 +115,9 @@
   "net_gain_max": 18,
   "dev_app": false,
   "site_specific": false,
-  "near_app": true
+  "near_app": true,
+  "zone_full": "RM.6-28(PA)",
+  "holding": ""
  },
  {
   "pin": "715050463",
@@ -129,7 +139,9 @@
   "net_gain_max": 17,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RM.5(PA)(H12)",
+  "holding": "(H12)"
  },
  {
   "pin": "715050462",
@@ -151,7 +163,9 @@
   "net_gain_max": 17,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RM.5(PA)(H12)",
+  "holding": "(H12)"
  },
  {
   "pin": "714900399",
@@ -173,7 +187,9 @@
   "net_gain_max": 17,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RM.6(PA)(H12)",
+  "holding": "(H12)"
  },
  {
   "pin": "715050367",
@@ -195,7 +211,9 @@
   "net_gain_max": 15,
   "dev_app": false,
   "site_specific": false,
-  "near_app": true
+  "near_app": true,
+  "zone_full": "RM.5(PA)(H12)",
+  "holding": "(H12)"
  },
  {
   "pin": "712410334",
@@ -217,7 +235,9 @@
   "net_gain_max": 14,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RM.5",
+  "holding": ""
  },
  {
   "pin": "715050366",
@@ -239,7 +259,9 @@
   "net_gain_max": 14,
   "dev_app": false,
   "site_specific": false,
-  "near_app": true
+  "near_app": true,
+  "zone_full": "RM.5(PA)(H12)",
+  "holding": "(H12)"
  },
  {
   "pin": "712470628",
@@ -261,7 +283,9 @@
   "net_gain_max": 12,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RH.7(H12)",
+  "holding": "(H12)"
  },
  {
   "pin": "712760018",
@@ -283,7 +307,9 @@
   "net_gain_max": 12,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RM.5(H12)",
+  "holding": "(H12)"
  },
  {
   "pin": "714930716",
@@ -305,7 +331,9 @@
   "net_gain_max": 12,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RM.5(H12)",
+  "holding": "(H12)"
  },
  {
   "pin": "714930719",
@@ -327,7 +355,9 @@
   "net_gain_max": 12,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RM.5(PA)(H12)",
+  "holding": "(H12)"
  },
  {
   "pin": "714930720",
@@ -349,7 +379,9 @@
   "net_gain_max": 12,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RM.5(PA)(H12)",
+  "holding": "(H12)"
  },
  {
   "pin": "714930721",
@@ -371,7 +403,9 @@
   "net_gain_max": 12,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RM.5(PA)(H12)",
+  "holding": "(H12)"
  },
  {
   "pin": "714930722",
@@ -393,7 +427,9 @@
   "net_gain_max": 12,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RM.5(PA)(H12)",
+  "holding": "(H12)"
  },
  {
   "pin": "714930714",
@@ -415,7 +451,9 @@
   "net_gain_max": 12,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RM.5(H12)",
+  "holding": "(H12)"
  },
  {
   "pin": "714930715",
@@ -437,7 +475,9 @@
   "net_gain_max": 12,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RM.5(H12)",
+  "holding": "(H12)"
  },
  {
   "pin": "714930717",
@@ -459,7 +499,9 @@
   "net_gain_max": 12,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RM.5(H12)",
+  "holding": "(H12)"
  },
  {
   "pin": "714930713",
@@ -481,7 +523,9 @@
   "net_gain_max": 12,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RM.5(H12)",
+  "holding": "(H12)"
  },
  {
   "pin": "715050360",
@@ -503,7 +547,9 @@
   "net_gain_max": 12,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RM.6-28(PA)",
+  "holding": ""
  },
  {
   "pin": "715050359",
@@ -525,7 +571,9 @@
   "net_gain_max": 12,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RM.5(PA)(H12)",
+  "holding": "(H12)"
  },
  {
   "pin": "715050358",
@@ -547,7 +595,9 @@
   "net_gain_max": 12,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RM.5(PA)(H12)",
+  "holding": "(H12)"
  },
  {
   "pin": "715050357",
@@ -569,7 +619,9 @@
   "net_gain_max": 12,
   "dev_app": false,
   "site_specific": false,
-  "near_app": true
+  "near_app": true,
+  "zone_full": "RM.5(PA)(H12)",
+  "holding": "(H12)"
  },
  {
   "pin": "715050361",
@@ -591,7 +643,9 @@
   "net_gain_max": 12,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RM.6-28(PA)",
+  "holding": ""
  },
  {
   "pin": "712470273",
@@ -613,7 +667,9 @@
   "net_gain_max": 11,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RH.7(H12)",
+  "holding": "(H12)"
  },
  {
   "pin": "712470278",
@@ -635,7 +691,9 @@
   "net_gain_max": 11,
   "dev_app": false,
   "site_specific": false,
-  "near_app": true
+  "near_app": true,
+  "zone_full": "RH.7(H12)",
+  "holding": "(H12)"
  },
  {
   "pin": "712470277",
@@ -657,7 +715,9 @@
   "net_gain_max": 11,
   "dev_app": false,
   "site_specific": false,
-  "near_app": true
+  "near_app": true,
+  "zone_full": "RH.7(H12)",
+  "holding": "(H12)"
  },
  {
   "pin": "712470275",
@@ -679,7 +739,9 @@
   "net_gain_max": 11,
   "dev_app": false,
   "site_specific": false,
-  "near_app": true
+  "near_app": true,
+  "zone_full": "RH.7(H12)",
+  "holding": "(H12)"
  },
  {
   "pin": "712470301",
@@ -701,7 +763,9 @@
   "net_gain_max": 11,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RH.7(H12)",
+  "holding": "(H12)"
  },
  {
   "pin": "712440058",
@@ -723,7 +787,9 @@
   "net_gain_max": 11,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RM.5(H12)",
+  "holding": "(H12)"
  },
  {
   "pin": "712460021",
@@ -745,7 +811,9 @@
   "net_gain_max": 10,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RH.7(H12)",
+  "holding": "(H12)"
  },
  {
   "pin": "712470300",
@@ -767,7 +835,9 @@
   "net_gain_max": 10,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RH.7(H12)",
+  "holding": "(H12)"
  },
  {
   "pin": "712470274",
@@ -789,7 +859,9 @@
   "net_gain_max": 10,
   "dev_app": false,
   "site_specific": false,
-  "near_app": true
+  "near_app": true,
+  "zone_full": "RH.7(H12)",
+  "holding": "(H12)"
  },
  {
   "pin": "712470276",
@@ -811,7 +883,9 @@
   "net_gain_max": 10,
   "dev_app": false,
   "site_specific": true,
-  "near_app": true
+  "near_app": true,
+  "zone_full": "RH.7(H12)",
+  "holding": "(H12)"
  },
  {
   "pin": "712510057",
@@ -833,7 +907,9 @@
   "net_gain_max": 10,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RM.5(H12)",
+  "holding": "(H12)"
  },
  {
   "pin": "712470279",
@@ -855,7 +931,9 @@
   "net_gain_max": 9,
   "dev_app": false,
   "site_specific": false,
-  "near_app": true
+  "near_app": true,
+  "zone_full": "RH.7(H12)",
+  "holding": "(H12)"
  },
  {
   "pin": "712510056",
@@ -877,7 +955,9 @@
   "net_gain_max": 9,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RM.5(H12)",
+  "holding": "(H12)"
  },
  {
   "pin": "712470613",
@@ -899,7 +979,9 @@
   "net_gain_max": 8,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RH.7(H12)",
+  "holding": "(H12)"
  },
  {
   "pin": "712760062",
@@ -921,7 +1003,9 @@
   "net_gain_max": 8,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RM.5(H12)",
+  "holding": "(H12)"
  },
  {
   "pin": "712760060",
@@ -943,7 +1027,9 @@
   "net_gain_max": 8,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RM.5(H12)",
+  "holding": "(H12)"
  },
  {
   "pin": "712440057",
@@ -965,7 +1051,9 @@
   "net_gain_max": 8,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RM.5(H12)",
+  "holding": "(H12)"
  },
  {
   "pin": "715050369",
@@ -987,7 +1075,9 @@
   "net_gain_max": 8,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RM.5(PA)(H12)",
+  "holding": "(H12)"
  },
  {
   "pin": "712470635",
@@ -1009,7 +1099,9 @@
   "net_gain_max": 6,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RH.7(H12)",
+  "holding": "(H12)"
  },
  {
   "pin": "712410183",
@@ -1031,7 +1123,9 @@
   "net_gain_max": 6,
   "dev_app": false,
   "site_specific": false,
-  "near_app": true
+  "near_app": true,
+  "zone_full": "RM.5",
+  "holding": ""
  },
  {
   "pin": "712440055",
@@ -1053,7 +1147,9 @@
   "net_gain_max": 6,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RM.5(H12)",
+  "holding": "(H12)"
  },
  {
   "pin": "712440056",
@@ -1075,7 +1171,9 @@
   "net_gain_max": 6,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RM.5(H12)",
+  "holding": "(H12)"
  },
  {
   "pin": "712440007",
@@ -1097,7 +1195,9 @@
   "net_gain_max": 6,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RM.5(H12)",
+  "holding": "(H12)"
  },
  {
   "pin": "712440004",
@@ -1119,7 +1219,9 @@
   "net_gain_max": 5,
   "dev_app": false,
   "site_specific": false,
-  "near_app": true
+  "near_app": true,
+  "zone_full": "RM.5(H12)",
+  "holding": "(H12)"
  },
  {
   "pin": "712410182",
@@ -1141,7 +1243,9 @@
   "net_gain_max": 5,
   "dev_app": false,
   "site_specific": false,
-  "near_app": true
+  "near_app": true,
+  "zone_full": "RM.5",
+  "holding": ""
  },
  {
   "pin": "712440059",
@@ -1163,7 +1267,9 @@
   "net_gain_max": 5,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RM.5(H12)",
+  "holding": "(H12)"
  },
  {
   "pin": "712880024",
@@ -1185,7 +1291,9 @@
   "net_gain_max": 5,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RL.4",
+  "holding": ""
  },
  {
   "pin": "712770123",
@@ -1207,7 +1315,9 @@
   "net_gain_max": 5,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RL.4",
+  "holding": ""
  },
  {
   "pin": "713350048",
@@ -1229,7 +1339,9 @@
   "net_gain_max": 5,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RL.4",
+  "holding": ""
  },
  {
   "pin": "712760136",
@@ -1251,7 +1363,9 @@
   "net_gain_max": 5,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RL.4",
+  "holding": ""
  },
  {
   "pin": "712510054",
@@ -1273,7 +1387,9 @@
   "net_gain_max": 4,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RM.5(H12)",
+  "holding": "(H12)"
  },
  {
   "pin": "713370026",
@@ -1295,7 +1411,9 @@
   "net_gain_max": 4,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RL.4",
+  "holding": ""
  },
  {
   "pin": "712910116",
@@ -1317,7 +1435,9 @@
   "net_gain_max": 4,
   "dev_app": false,
   "site_specific": true,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RL.4",
+  "holding": ""
  },
  {
   "pin": "712910033",
@@ -1339,7 +1459,9 @@
   "net_gain_max": 4,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RL.4",
+  "holding": ""
  },
  {
   "pin": "713190362",
@@ -1361,7 +1483,9 @@
   "net_gain_max": 3,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RL.4",
+  "holding": ""
  },
  {
   "pin": "712910038",
@@ -1383,7 +1507,9 @@
   "net_gain_max": 3,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RL.4",
+  "holding": ""
  },
  {
   "pin": "713220069",
@@ -1405,7 +1531,9 @@
   "net_gain_max": 3,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RL.4",
+  "holding": ""
  },
  {
   "pin": "713330011",
@@ -1427,7 +1555,9 @@
   "net_gain_max": 3,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RL.4",
+  "holding": ""
  },
  {
   "pin": "713330195",
@@ -1449,7 +1579,9 @@
   "net_gain_max": 3,
   "dev_app": false,
   "site_specific": true,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RL.4",
+  "holding": ""
  },
  {
   "pin": "713220068",
@@ -1471,7 +1603,9 @@
   "net_gain_max": 3,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RL.4",
+  "holding": ""
  },
  {
   "pin": "713490029",
@@ -1493,7 +1627,9 @@
   "net_gain_max": 3,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RL.4",
+  "holding": ""
  },
  {
   "pin": "712920119",
@@ -1515,7 +1651,9 @@
   "net_gain_max": 3,
   "dev_app": false,
   "site_specific": false,
-  "near_app": true
+  "near_app": true,
+  "zone_full": "RL.4",
+  "holding": ""
  },
  {
   "pin": "712370025",
@@ -1537,7 +1675,9 @@
   "net_gain_max": 3,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RL.4",
+  "holding": ""
  },
  {
   "pin": "712470207",
@@ -1559,7 +1699,9 @@
   "net_gain_max": 3,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RL.4",
+  "holding": ""
  },
  {
   "pin": "713370124",
@@ -1581,7 +1723,9 @@
   "net_gain_max": 2,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RL.4",
+  "holding": ""
  },
  {
   "pin": "712910055",
@@ -1603,7 +1747,9 @@
   "net_gain_max": 2,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RL.4",
+  "holding": ""
  },
  {
   "pin": "712470286",
@@ -1625,7 +1771,9 @@
   "net_gain_max": 2,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RL.4",
+  "holding": ""
  },
  {
   "pin": "712890166",
@@ -1647,7 +1795,9 @@
   "net_gain_max": 2,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RL.4",
+  "holding": ""
  },
  {
   "pin": "712910145",
@@ -1669,7 +1819,9 @@
   "net_gain_max": 2,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RL.4",
+  "holding": ""
  },
  {
   "pin": "712920251",
@@ -1691,7 +1843,9 @@
   "net_gain_max": 1,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RL.4",
+  "holding": ""
  },
  {
   "pin": "712910089",
@@ -1713,7 +1867,9 @@
   "net_gain_max": 1,
   "dev_app": false,
   "site_specific": false,
-  "near_app": true
+  "near_app": true,
+  "zone_full": "RL.4",
+  "holding": ""
  },
  {
   "pin": "712390082",
@@ -1735,7 +1891,9 @@
   "net_gain_max": 1,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RL.4",
+  "holding": ""
  },
  {
   "pin": "712910011",
@@ -1757,7 +1915,9 @@
   "net_gain_max": 1,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RL.4",
+  "holding": ""
  },
  {
   "pin": "713390074",
@@ -1779,7 +1939,9 @@
   "net_gain_max": 1,
   "dev_app": false,
   "site_specific": true,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RL.4",
+  "holding": ""
  },
  {
   "pin": "713340065",
@@ -1801,7 +1963,9 @@
   "net_gain_max": 1,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RL.4",
+  "holding": ""
  },
  {
   "pin": "712810095",
@@ -1823,7 +1987,9 @@
   "net_gain_max": 1,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RL.4",
+  "holding": ""
  },
  {
   "pin": "713110029",
@@ -1845,7 +2011,9 @@
   "net_gain_max": 1,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RL.4",
+  "holding": ""
  },
  {
   "pin": "712990155",
@@ -1867,7 +2035,9 @@
   "net_gain_max": 1,
   "dev_app": false,
   "site_specific": false,
-  "near_app": true
+  "near_app": true,
+  "zone_full": "RL.4",
+  "holding": ""
  },
  {
   "pin": "712890178",
@@ -1889,7 +2059,9 @@
   "net_gain_max": 1,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RL.4",
+  "holding": ""
  },
  {
   "pin": "712920088",
@@ -1911,7 +2083,9 @@
   "net_gain_max": 1,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RL.4",
+  "holding": ""
  },
  {
   "pin": "713220015",
@@ -1933,7 +2107,9 @@
   "net_gain_max": 1,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RL.4",
+  "holding": ""
  },
  {
   "pin": "712820038",
@@ -1955,7 +2131,9 @@
   "net_gain_max": 1,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RL.4",
+  "holding": ""
  },
  {
   "pin": "713330196",
@@ -1977,7 +2155,9 @@
   "net_gain_max": 1,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RL.4",
+  "holding": ""
  },
  {
   "pin": "712800095",
@@ -1999,7 +2179,9 @@
   "net_gain_max": 1,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RL.4",
+  "holding": ""
  },
  {
   "pin": "714850129",
@@ -2021,7 +2203,9 @@
   "net_gain_max": 1,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RL.4",
+  "holding": ""
  },
  {
   "pin": "712810136",
@@ -2043,7 +2227,9 @@
   "net_gain_max": 1,
   "dev_app": false,
   "site_specific": true,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RL.4",
+  "holding": ""
  },
  {
   "pin": "712810025",
@@ -2065,7 +2251,9 @@
   "net_gain_max": 1,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RL.4",
+  "holding": ""
  },
  {
   "pin": "713390006",
@@ -2087,7 +2275,9 @@
   "net_gain_max": 1,
   "dev_app": false,
   "site_specific": true,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RL.4",
+  "holding": ""
  },
  {
   "pin": "712820143",
@@ -2109,7 +2299,9 @@
   "net_gain_max": 0,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RL.4",
+  "holding": ""
  },
  {
   "pin": "714850107",
@@ -2131,7 +2323,9 @@
   "net_gain_max": 0,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RL.4",
+  "holding": ""
  },
  {
   "pin": "712910065",
@@ -2153,7 +2347,9 @@
   "net_gain_max": 0,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RL.4",
+  "holding": ""
  },
  {
   "pin": "712920037",
@@ -2175,7 +2371,9 @@
   "net_gain_max": 0,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RL.4",
+  "holding": ""
  },
  {
   "pin": "712910112",
@@ -2197,6 +2395,8 @@
   "net_gain_max": 0,
   "dev_app": false,
   "site_specific": false,
-  "near_app": false
+  "near_app": false,
+  "zone_full": "RL.4",
+  "holding": ""
  }
 ]

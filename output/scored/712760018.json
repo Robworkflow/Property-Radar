@@ -1,0 +1,43 @@
+{
+ "pin": "712760018",
+ "address": "126 Bagot Street; 124 Bagot St",
+ "verdict": "OPEN-PROVISIONAL",
+ "confidence": 0.5,
+ "flags": [
+  "APPEAL",
+  "ZONING_UNVERIFIED",
+  "MULTI_LOT_ASSEMBLY_OWNERSHIP_UNKNOWN"
+ ],
+ "checks_done": {
+  "city_docs": true,
+  "address_pin": true,
+  "neighbour_assembly": true,
+  "listing": false
+ },
+ "evidence": [
+  {
+   "claim": "City 'Current development applications' list has no entry for any Watson Parkway North address except 115 Watson Pkwy N (OZS24-015); no Bagot Street entry.",
+   "url": "https://guelph.ca/city-government/planning-and-development/current-development-applications/",
+   "date": "2026-10-23 (retrieved)"
+  },
+  {
+   "claim": "Searches for \"126 Bagot Street\" and \"124 Bagot Street\" Guelph plus Bagot St development/ZBA/site plan/minor variance returned no application, assembly, sale or listing for these lots (only unrelated Bagot St condo/house listings e.g. 107 Bagot, 12 Bagot, 112 Bagot rental).",
+   "url": "https://guelph.listing.ca/bagot-street.htm",
+   "date": "2026-10-23 (retrieved)"
+  },
+  {
+   "claim": "Zoning check: R.1B (1995 by-law single detached) -> RM.5 (2023 by-law, medium density) could not be confirmed at parcel level; whole 2023 by-law described as under OLT appeal (not in force), so stricter of old/new (R.1B) applies until resolved. Engine shows 4 buildings on 1,329 m2 across 2 addresses - possible legal non-conforming/multi-unit use; not verified.",
+   "url": "https://pub-guelph.escribemeetings.com/filestream.ashx?DocumentId=44594",
+   "date": "unknown (undated council report)"
+  }
+ ],
+ "neighbours_in_play": [],
+ "summary": "No application, assembly, sale or listing found for 124/126 Bagot St in city lists or web search; MLS/title/heritage/permits unchecked. R.1B->RM.5 unverified and appealed by-law, so 13 units is a bylaw ceiling only (4 existing buildings on a 2-lot pair; ownership of both lots must be confirmed).",
+ "manual_checks": [
+  "title/ownership",
+  "MLS",
+  "heritage register",
+  "permit search"
+ ],
+ "next_action": "verify-by-human"
+}

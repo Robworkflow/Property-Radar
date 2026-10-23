@@ -35,10 +35,20 @@ appg=[geo[k] for k,u in use.items() if u['dev_apps'] and k in geo]
 for c in cand:
     g=geo.get(f"{c['pin']}|{c['gpid']}")
     c['near_app']=bool(g is not None and any(g.distance(a)*111320*0.72<25 for a in appg))
+# holding symbols (H12 = municipal services adequate before new residential) live in ZONE_1 of the new layer; base() strips them
+from shapely.geometry import Point
+from shapely.strtree import STRtree
+nf=[f for f in json.load(open('/data/cache/scratch/zoning/new_zoning.geojson')) if f.get('geometry')]
+ng=[shape(f['geometry']) for f in nf]; nt=STRtree(ng)
+for c in cand:
+    pt=Point(c['lon'],c['lat']); c['zone_full']=None
+    for j in nt.query(pt):
+        if ng[j].contains(pt): c['zone_full']=(nf[j].get('properties') or {}).get('ZONE_1'); break
+    h=re.findall(r'\(H\d*\)',c['zone_full'] or ''); c['holding']=h[0] if h else ''
 cand=[c for c in cand if not c['dev_app']]
 cand.sort(key=lambda c:(-c['net_gain_max'],c['area_m2']))
 json.dump(cand,open(f'{OUT}/small_opps.json','w'),indent=1)
-cols=['address','pin','old','new','area_m2','bldg_n','coverage_pct','units_min','units_max','net_gain_max','near_app','site_specific','lat','lon']
+cols=['address','pin','old','new','area_m2','bldg_n','coverage_pct','units_min','units_max','net_gain_max','near_app','site_specific','zone_full','holding','lat','lon']
 with open(f'{OUT}/small_opps.csv','w',newline='') as fh:
     w=csv.DictWriter(fh,fieldnames=cols,extrasaction='ignore'); w.writeheader(); w.writerows(cand)
 from collections import Counter

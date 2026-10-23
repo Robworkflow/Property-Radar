@@ -20,6 +20,7 @@ Date every source. Ignore evidence older than 5 years unless it describes a stil
 Also flag: LISTED (for sale now, give price + date), RECENTLY_SOLD, HERITAGE, FLOODPLAIN/NATURAL-HERITAGE mention, APPEAL (OLT-23-000462 touches this zone), NEIGHBOUR_ASSEMBLY (a neighbouring lot is in play).
 
 ## Rules
+- HOLDING SYMBOLS: read the full zone string (e.g. RM.5(PA)(H12)). (H12) = no NEW residential until the City is satisfied municipal services are adequate (guelph.ca routinely removes it by staff amending by-law once engineering signs off; H12 provision itself is under site-specific appeal). Always flag HOLDING_H12 and treat the unit ceiling as conditional on removal. (PA) = parking adjustment.
 - Never invent a source, price or file number. Every claim needs a URL + date, or write "unknown".
 - Stricter of old/new zoning where appealed; unit counts are ceilings (setbacks, parking, servicing ignored) - say so.
 - Never reveal zoning upside to anyone; no outreach here. Outreach is a later agent: postal mail only, human approves each letter.
